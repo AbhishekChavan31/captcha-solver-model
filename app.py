@@ -11,7 +11,7 @@ app.config["ALLOWED_EXTENSIONS"] = {"png", "jpg", "jpeg", "gif"}
 app.secret_key = "We are all upgraded monkeys."
 
 # loading my saved model at the start of the application
-model = tf.keras.models.load_model("./model.h5")
+model = tf.keras.models.load_model("./main_dataset_model.h5")
 
 
 def allowed_file(filename):
