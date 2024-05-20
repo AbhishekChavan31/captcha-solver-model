@@ -10,7 +10,7 @@ app.config["UPLOAD_FOLDER"] = "static/uploads/"
 app.config["ALLOWED_EXTENSIONS"] = {"png", "jpg", "jpeg", "gif"}
 app.secret_key = "We are all upgraded monkeys."
 
-# Load the pre-trained model
+# loading my saved model at the start of the application
 model = tf.keras.models.load_model("./model.h5")
 
 
