@@ -30,6 +30,7 @@ pip install -r requirements.txt
 
 ## Training The Model
 used CNN model with layers as follows
+
     - first convolutional layer
         32 filters, with max pooling of 2x2
         and dropout of 0.25 to avoid overfitting
